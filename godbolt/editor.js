@@ -110,7 +110,7 @@ localStorage.setItem("gl", JSON.stringify({
                                         "id": 1,
                                         "compiler": "gsnapshot",
                                         "source": 1,
-                                        "options": "-Og -std=c++26 -Wall -Wextra -Werror -pedantic-errors -Weffc++ -Wconversion -Wsign-conversion -Wcast-align=strict -Wcast-qual -Wfloat-equal -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
+                                        "options": "-Og -std=c++26 -Werror -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion -Wcast-qual -Wfloat-equal -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
                                         "filters": {
                                             "binaryObject": false,
                                             "binary": false,
@@ -153,7 +153,7 @@ localStorage.setItem("gl", JSON.stringify({
                                         "id": 2,
                                         "compiler": "clang_trunk",
                                         "source": 1,
-                                        "options": "-Og -std=c++26 -Wall -Wextra -Werror -pedantic-errors -Weffc++ -Wconversion -Wsign-conversion -Wcast-align -Wcast-qual -Wfloat-equal -Wunreachable-code -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
+                                        "options": "-Og -std=c++26 -Werror -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion -Wcast-qual -Wfloat-equal -Wunreachable-code -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
                                         "filters": {
                                             "binaryObject": false,
                                             "binary": false,
