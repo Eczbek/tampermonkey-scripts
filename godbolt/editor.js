@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Godbolt Editor Preset
 // @description Configures things in godbolt's editor for me
-// @version 0.1.0
+// @version 0.1.1
 
 // @author Eczbek
 // @source https://raw.githubusercontent.com/Eczbek/tampermonkey-scripts/main/godbolt/editor.js
