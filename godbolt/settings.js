@@ -40,7 +40,7 @@ localStorage.setItem("settings", JSON.stringify({
     "useCustomContextMenu": true,
     "useSpaces": false,
     "useVim": false,
-    "wordWrap": false,
+    "wordWrap": true,
     "colourScheme": "gray-shade",
     "theme": "darkplus",
     "defaultFontScale": 14,
