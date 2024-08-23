@@ -110,7 +110,7 @@ localStorage.setItem("gl", JSON.stringify({
                                         "id": 1,
                                         "compiler": "gsnapshot",
                                         "source": 1,
-                                        "options": "-Og -std=c++26 -Werror -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion -Wcast-qual -Wfloat-equal -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
+                                        "options": "-std=c++26 -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion",
                                         "filters": {
                                             "binaryObject": false,
                                             "binary": false,
@@ -153,7 +153,7 @@ localStorage.setItem("gl", JSON.stringify({
                                         "id": 2,
                                         "compiler": "clang_trunk",
                                         "source": 1,
-                                        "options": "-Og -std=c++26 -Werror -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion -Wcast-qual -Wfloat-equal -Wunreachable-code -g -fsanitize=address -fsanitize=undefined -fverbose-asm",
+                                        "options": "-std=c++26 -Wpedantic -Wall -Wextra -Wconversion -Wsign-conversion -Wunreachable-code",
                                         "filters": {
                                             "binaryObject": false,
                                             "binary": false,
@@ -196,7 +196,7 @@ localStorage.setItem("gl", JSON.stringify({
                                         "id": 3,
                                         "compiler": "vcpp_v19_latest_x86",
                                         "source": 1,
-                                        "options": "/Od /std:c++latest /Zc:preprocessor /W4 /WX /permissive /EHsc /Zi /fsanitize=address",
+                                        "options": "/std:c++latest /Zc:preprocessor /W4 /permissive /EHsc /Zi",
                                         "filters": {
                                             "binaryObject": false,
                                             "binary": false,
