@@ -50,5 +50,5 @@ localStorage.setItem("settings", JSON.stringify({
     "enableCtrlS": "false",
     "delayAfterChange": 3000,
     "tabWidth": 4,
-    "editorsFFont": "Consolas, \"Liberation Mono\", Courier, monospace"
+    "editorsFFont": "Hack, monospace"
 }));
